@@ -275,7 +275,11 @@ html {
    }
   
   @media all and (max-width: 480px) { 
-      
+        
+    h1{
+        font-size:2rem;
+    }
+    
       .guitar{
           display:none;
       }
