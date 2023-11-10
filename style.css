@@ -1,0 +1,133 @@
+body{
+    background-color: #171D1C;
+    color: #EFE9F4;
+    font-family: 'Lexend', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    border-bottom: #EFE9F4 solid;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px rgb(70, 70, 70);
+}
+
+.guitar{
+    width: 500px;
+    height: auto;
+    transform: rotate(240deg)
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p{
+    margin: auto;
+    width: 900px;
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 2px 2px rgb(70, 70, 70);
+}
+
+.gif{
+    width: 300px;
+    height: auto;
+    padding-bottom: 20px;
+    border-radius: 25px;
+}
+
+hr{
+    margin: 50px;
+    color: #454546;
+}
+
+.secp{
+    text-align: left;
+    width: 700px;
+    float: left;
+    margin-left: 50px;
+}
+
+#guitar2{
+    transform: rotate(300deg);
+}
+#guitar3{
+    width: 700px;
+    height: auto;
+}
+
+.gg-search {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 16px;
+    border: 2px solid;
+    border-radius: 100%;
+    margin-left: -4px;
+    margin-top: -4px
+}
+.gg-search::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    height: 8px;
+    background: currentColor;
+    transform: rotate(-45deg);
+    top: 10px;
+    left: 12px
+}
+
+h3{
+    text-align: center;
+}
+
+footer p{
+    font-size: 16px;
+}
+
+button {
+    background-color: #fff; /* Beyaz buton arkaplan */
+    color: #000; /* Siyah buton metin rengi */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #000; /* Siyah kenarlık */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    background-color: #000; /* Hover durumunda siyah arkaplan */
+    color: #fff; /* Hover durumunda beyaz metin rengi */
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.subscribe h3,
+.subscribe button,
+.subscribe p {
+    margin: 10px 0;
+}
+
+a{
+    text-decoration: none;
+    color:#ce1616;
+}
